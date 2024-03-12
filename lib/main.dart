@@ -35,7 +35,7 @@ class _MyAppState extends State<MyApp> {
                 decoration: InputDecoration(
                   enabledBorder: OutlineInputBorder(
                       borderSide: BorderSide(width:3,color: Colors.white)),
-                  hintText: 'Enter your password' ,
+                  hintText: 'Enter your password.' ,
                   hintStyle: TextStyle(color: Colors.white),
                 ),
               ),
