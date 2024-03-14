@@ -26,7 +26,7 @@ class _ProfileState extends State<Profile> {
                 decoration: InputDecoration(
                   enabledBorder: OutlineInputBorder(
                       borderSide: BorderSide(width:3,color: Colors.white)),
-                  hintText: 'Enter your number' ,
+                  hintText: 'Enter your number.' ,
                   filled: true,
                   fillColor: Colors.white,
                 ),
