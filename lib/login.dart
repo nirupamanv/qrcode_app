@@ -23,7 +23,7 @@ class _MyAppState extends State<MyApp> {
               TextField(
                 decoration: InputDecoration(
                   enabledBorder: OutlineInputBorder(borderSide: BorderSide(width:3,color: Colors.white),),
-                  hintText: 'Enter your Roll no',
+                  hintText: 'Enter your Roll no.',
                   hintStyle: TextStyle(color: Colors.white),
 
                 ),
