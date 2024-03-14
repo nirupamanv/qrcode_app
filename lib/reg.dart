@@ -56,9 +56,12 @@ class _RegState extends State<Reg> {
     ),
     ),
       SizedBox(height: 30,),
-      TextButton(onPressed:(){}, child: Text('Register',
-        style: TextStyle(color: Colors.white),),
-      )
+      TextButton(onPressed:(){},
+        child: Text('Register'),style: TextButton.styleFrom(
+          side: BorderSide(color: Colors.white,),
+          primary: Colors.white,
+        ),
+      ),
     ]
     ),
       ),
