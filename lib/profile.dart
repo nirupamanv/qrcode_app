@@ -29,6 +29,7 @@ class _ProfileState extends State<Profile> {
                   hintText: 'Enter your number.' ,
                   filled: true,
                   fillColor: Colors.white,
+                  icon: new Icon(Icons.phone),
                 ),
               ),
               SizedBox(height: 30,),
@@ -39,6 +40,7 @@ class _ProfileState extends State<Profile> {
                   hintText: 'Enter email' ,
                   filled: true,
                   fillColor: Colors.white,
+                 icon: new Icon(Icons.email),
                 ),
               ),
               
