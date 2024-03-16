@@ -53,7 +53,7 @@ class _RegState extends State<Reg> {
         appBar: AppBar(
           centerTitle: true,
           backgroundColor: Colors.teal,
-          title: Text('Registration',style: TextStyle(color: Colors.white) ,),
+          title: Text('Registration.',style: TextStyle(color: Colors.white) ,),
         ),
     body: Center(
     child: Column(
