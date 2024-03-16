@@ -10,8 +10,7 @@ class Button extends StatefulWidget {
 class _ButtonState extends State<Button> {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Scaffold(
+    return Scaffold(
         backgroundColor: Colors.teal,
         body: Center(
           child: Column(
@@ -40,7 +39,7 @@ class _ButtonState extends State<Button> {
             ],
           ),
         ),
-      ),
+
     );
   }
 }

@@ -13,8 +13,7 @@ class Scan extends StatefulWidget {
 class _ScanState extends State<Scan> {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Scaffold(
+    return Scaffold(
         backgroundColor: Colors.teal,
         body: Center(
           child: Column(
@@ -53,7 +52,7 @@ class _ScanState extends State<Scan> {
 
           ),
         ),
-      ),
+
     );
   }
 }

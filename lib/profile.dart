@@ -9,8 +9,7 @@ class Profile extends StatefulWidget {
 class _ProfileState extends State<Profile> {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Scaffold(
+    return Scaffold(
         backgroundColor: Colors.teal,
         body: Center(
           child: Column(
@@ -27,9 +26,10 @@ class _ProfileState extends State<Profile> {
                   enabledBorder: OutlineInputBorder(
                       borderSide: BorderSide(width:3,color: Colors.white)),
                   hintText: 'Enter your number.' ,
+                  prefixIcon:
+                  IconButton(onPressed: () {}, icon: Icon(Icons.phone_rounded)),
                   filled: true,
                   fillColor: Colors.white,
-                  icon: new Icon(Icons.phone),
                 ),
               ),
               SizedBox(height: 30,),
@@ -38,16 +38,17 @@ class _ProfileState extends State<Profile> {
                   enabledBorder: OutlineInputBorder(
                       borderSide: BorderSide(width:3,color: Colors.white)),
                   hintText: 'Enter email' ,
+                  prefixIcon:
+                  IconButton(onPressed: () {}, icon: Icon(Icons.email_rounded)),
                   filled: true,
                   fillColor: Colors.white,
-                 icon: new Icon(Icons.email),
                 ),
               ),
               
             ],
           ),
         ),
-      ),
+
     );
   }
 }
