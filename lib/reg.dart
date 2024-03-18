@@ -16,7 +16,7 @@ class _RegState extends State<Reg> {
   final _emailController=TextEditingController();
   final _passwordController=TextEditingController();
 
-  void register() async{
+  Future<void> register() async{
     Uri uri=Uri.parse('https://scnner-web.onrender.com/api/register');
     var response=await http.post(uri,
     headers:<String,String>{
