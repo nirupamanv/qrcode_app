@@ -64,7 +64,7 @@ class _RegState extends State<Reg> {
       controller:_nameNoController ,
     decoration: InputDecoration(
     enabledBorder: OutlineInputBorder(borderSide: BorderSide(width:3,color: Colors.white),),
-    hintText: 'Enter your name',
+    hintText: 'Enter your name:',
     hintStyle: TextStyle(color: Colors.white),
 
     ),
